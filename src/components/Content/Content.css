@@ -1,0 +1,83 @@
+.NewPage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-image: url("./newsback.jpg");
+  -webkit-background-size: cover;
+}
+
+.NewPageSection {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-right: 5%;
+}
+
+.NewHeaderPage {
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(224, 224, 224);
+  font-weight: bold;
+  font-size: 250%;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  border-bottom: 0.01em #A64941 solid;
+}
+
+.NewBodyPage {
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(224, 224, 224);
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+.NewsPageSpisok {
+  width: 18%;
+  height: 80.1%;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: auto;
+}
+
+.NewsPageSpisok ul {
+  width: 100%;
+  height: 80%;
+  margin-top: 20%;
+}
+
+.NewsPageSpisok ul li {
+  width: 100%;
+  height: 10%;
+  display: block;
+}
+
+.NewsPageSpisok ul li {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NewsPageSpisok ul li a {
+  display: block;
+  height: 90%;
+  width: 100%;
+  color: rgb(224, 224, 224);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 130%;
+  padding-left: 5%;
+  border-top: 0.01em rgb(224, 224, 224) solid;
+  border-bottom: 0.01em rgb(224, 224, 224) solid;
+}
+
+.NewsPageSpisok ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}/*# sourceMappingURL=Content.css.map */

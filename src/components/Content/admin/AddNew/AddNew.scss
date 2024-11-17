@@ -1,0 +1,101 @@
+.addNew{
+    display: flex;
+    flex-direction: column;
+    font-size: 280%;
+    align-items: center;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(0,0,0, 0.8);
+}
+.HeaderPanel{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.submitadmin{
+    width: 30%;
+    height: 12%;
+    border: 0;
+    font-size: 60%;
+    background-color: #A64941;
+    font-family: 'main';
+    border-radius: 2%;
+    margin-bottom: 5%;
+}
+.nameInput{
+    width: 70%;
+    height: 10%;
+    border: 0;
+    font-family: 'main';
+    font-size: 60%;
+    margin-bottom: 5%;
+    border: 0;
+}
+.discInput{
+    width: 70%;
+    height: 30%;
+    margin-bottom: 5%;
+    font-size: 60%;
+    border: 0;
+    font-family: 'main';
+}
+:focus-visible{
+    border: 0;
+    outline: 0;
+}
+.Spisok{
+    overflow: auto;
+    width: 100%;
+    margin-top: 5%;
+    height: 80%;
+}
+.Spisok li{
+    display: block;
+    padding-left: 1%;
+    height: 10%;
+    font-size: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Spisok li:hover{
+    background-color: rgb(256,256,256, 0.1);
+}
+.editordelete{
+    width: 8%;
+    height: 50%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.editordelete:hover{
+    opacity: 100;
+}
+.deletebutton{
+    height: 100%;
+}
+.editbutton{
+    height: 100%; 
+}
+.newname{
+    overflow: hidden;
+    width: 90%;
+}
+.backbutton{
+    width: 10%;
+    height: 30%;
+    background-color: #A64941;
+    border: 0;
+    border-radius: 2%;
+    font-size: 60%;
+    font-family: 'main';
+    margin-left: 5%;
+}
+.AdminHeader{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-right: 10%;
+}

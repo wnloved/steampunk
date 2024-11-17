@@ -1,0 +1,26 @@
+.About {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutBody {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 80%;
+  height: 50%;
+  font-size: 150%;
+}
+
+.aboutHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 20%;
+  font-size: 400%;
+}/*# sourceMappingURL=About.css.map */

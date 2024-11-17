@@ -1,0 +1,25 @@
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(0,0,0, 0.95);
+    position: absolute;
+}
+.telega{
+    height: 50%;
+    aspect-ratio: 1/1;
+    margin-right: 1%;
+}
+.telega img{
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+.discord{
+    height: 42%;
+    margin-left: 1%;
+}
+.discord img{
+    height: 100%;
+}
